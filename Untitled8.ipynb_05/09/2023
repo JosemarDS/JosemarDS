@@ -1,0 +1,686 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyMmUzdvNS7K6HKVmvTqzT8O",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/JosemarDS/JosemarDS/blob/main/Untitled8.ipynb_05/09/2023\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 20,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ncNVi4LrS2dM",
+        "outputId": "cd25391d-5087-47ee-9fa1-503be6803ee2"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "DIGITE SEU NOME: JOSEMAR\n",
+            "OLÁ,JOSEMAR!\n"
+          ]
+        }
+      ],
+      "source": [
+        "nome = input('DIGITE SEU NOME: ')\n",
+        "print('OLÁ,' +nome+ '!')\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "18XHuqI5h6mr"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "idade = 25\n",
+        "print('sua idade é:', idade)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "pjOqXgxoXAbm",
+        "outputId": "7f952a04-66a3-437c-8b37-b998c9046a8b"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "sua idade é: 25\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = \"Python\"\n",
+        "comprimento = len(texto)"
+      ],
+      "metadata": {
+        "id": "cKesNhzDXioM"
+      },
+      "execution_count": 18,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x = 5\n",
+        "tipo = type(x)\n",
+        "print(tipo)\n",
+        "\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vYS4ODXYYiOr",
+        "outputId": "75080ed4-1d6f-4bff-9a6a-95306b1a5e0a"
+      },
+      "execution_count": 36,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "<class 'int'>\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = 'python'\n",
+        "lista = list(texto)\n",
+        "print(lista)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Y1_wa02Ah75S",
+        "outputId": "a2a74f39-b597-40e6-b7bf-b2733b1f2926"
+      },
+      "execution_count": 32,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['p', 'y', 't', 'h', 'o', 'n']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros = range(1, 6)\n",
+        "print(numeros)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "NBD6pLNKil2a",
+        "outputId": "03a2cc7c-2480-410c-ccc4-a463e8b0aae7"
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "range(1, 6)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros  = [1, 2, 3, 4, 5]\n",
+        "soma = sum(numeros)\n",
+        "print(soma)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OiCFBHb-jugX",
+        "outputId": "3da47842-0c97-4687-a654-3b245c6fed8f"
+      },
+      "execution_count": 39,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero = int('42')\n",
+        "print(numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hxes0bo7kBG_",
+        "outputId": "b84d2a55-9f5c-42cf-a3ce-3d36fed121ee"
+      },
+      "execution_count": 40,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "42\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "texto = str(3.14)\n",
+        "print(texto)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5Cpd_5Q8kLae",
+        "outputId": "90e8cefc-22c3-418c-f133-51926ced96b7"
+      },
+      "execution_count": 42,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "3.14\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]\n",
+        "minimo = min(numeros)\n",
+        "maximo = max(numeros)\n",
+        "print(minimo)\n",
+        "print(maximo)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "QzvoGHNVkYjO",
+        "outputId": "076dd1b4-acfb-45a5-ca5c-5e89ae73b3e8"
+      },
+      "execution_count": 55,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "9\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numeros = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5]\n",
+        "numeros_ordenados = sorted(numeros)\n",
+        "print(numeros_ordenados)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "iOZwvN6plN19",
+        "outputId": "6c9079c3-9432-43dc-fd8c-94b44081f6b9"
+      },
+      "execution_count": 49,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 1, 2, 3, 3, 4, 5, 5, 5, 6, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#EXERCÍCIOS C/Loop For"
+      ],
+      "metadata": {
+        "id": "rltggMJYp65s"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#1-Escreva um programa que use a função range() para gerar os números pares de 2 a 20 e, em seguida, imprima cada número:\n",
+        "\n",
+        "numeros = range(2, 20)\n",
+        "list(range(2, 20))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YeeZABdfl_t0",
+        "outputId": "824f9876-f5b7-43a8-91a0-30706bb3906d"
+      },
+      "execution_count": 53,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 53
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#2-Escreva um programa que imprima os números pares de 2 a 20:"
+      ],
+      "metadata": {
+        "id": "mHWLtdgDoEEQ"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#3-Escreva um  programa que calcule a soma dos números de 1 a 100:\n",
+        "numeros = [1, 100]\n",
+        "soma = sum(numeros)\n",
+        "print(soma)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "wVgeyv2ypC0n",
+        "outputId": "dd0e18a5-ebde-4ade-a407-dc28752c5e36"
+      },
+      "execution_count": 60,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "101\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "for variável in sequência:\n",
+        "#Código a ser executado para cada item na sequência"
+      ],
+      "metadata": {
+        "id": "x6pOrZ2Q-2p4"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "palavra = 'python'\n",
+        "\n",
+        "for letra in palavra:\n",
+        "  print(letra)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ocbi_q_8s_Y3",
+        "outputId": "884c7e06-7f3c-44ef-8fb6-8afa1ecf6d11"
+      },
+      "execution_count": 61,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "p\n",
+            "y\n",
+            "t\n",
+            "h\n",
+            "o\n",
+            "n\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#indentação == organização da estrutura da linguagem python:\n",
+        "for numero in range(20, 50):\n",
+        "  print(numero)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-tJk3lbR6SFI",
+        "outputId": "6e7f4908-a055-40cb-def0-0296bc096b00"
+      },
+      "execution_count": 65,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "20\n",
+            "21\n",
+            "22\n",
+            "23\n",
+            "24\n",
+            "25\n",
+            "26\n",
+            "27\n",
+            "28\n",
+            "29\n",
+            "30\n",
+            "31\n",
+            "32\n",
+            "33\n",
+            "34\n",
+            "35\n",
+            "36\n",
+            "37\n",
+            "38\n",
+            "39\n",
+            "40\n",
+            "41\n",
+            "42\n",
+            "43\n",
+            "44\n",
+            "45\n",
+            "46\n",
+            "47\n",
+            "48\n",
+            "49\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "r = [1, 2, 3, 4] #array, lista ou vetor.\n",
+        "i = [4, 3, 2, 1]\n",
+        "for r in i:\n",
+        "  print(i)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Ssmv7q4i7HkW",
+        "outputId": "471cf51a-a818-4df4-d217-11ef605a8fe0"
+      },
+      "execution_count": 71,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[4, 3, 2, 1]\n",
+            "[4, 3, 2, 1]\n",
+            "[4, 3, 2, 1]\n",
+            "[4, 3, 2, 1]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pessoa = {'nome': 'joao', 'idade': 30, 'cidade': 'são paulo'}\n",
+        "for chave, valor in pessoa.items():\n",
+        "  print(chave, ':', valor)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yQ-M6K4y8et-",
+        "outputId": "77046fdb-d774-488b-a9a4-140ccf0e41f4"
+      },
+      "execution_count": 73,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "nome : joao\n",
+            "idade : 30\n",
+            "cidade : são paulo\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]\n",
+        "for linha in matriz:\n",
+        "  print(linha)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "W7T_O6Tb9-SB",
+        "outputId": "a3015ad7-7d04-4ebd-8f0b-4a3f732d367c"
+      },
+      "execution_count": 75,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3]\n",
+            "[4, 5, 6]\n",
+            "[7, 8, 9]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "nome = 'ana'\n",
+        "for i in nome:\n",
+        "  print(nome)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "uQSm0NCe7c4l",
+        "outputId": "26cb47d0-d5b6-49f4-c797-1d91a5bdbd27"
+      },
+      "execution_count": 67,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "ana\n",
+            "ana\n",
+            "ana\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "frase = 'Eu jogo a bol'\n",
+        "print(frase + input(\"digite uma palavra para completar\"))\n",
+        "\n",
+        "hora = input('digite a hora')\n",
+        "minutos = input('digite os minutos')\n",
+        "segundos = input('digite os segundos')\n",
+        "print(hora + ':' + minutos + ':' + segundos)\n",
+        "\n",
+        "cidade = input('código da cidade')\n",
+        "celular = input('nº do celular')\n",
+        "print('Número de Telefone:', cidade, celular)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vQs7qkM76GuX",
+        "outputId": "c62ea0bd-efff-4872-f7c3-2b3b1280d65d"
+      },
+      "execution_count": 64,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "digite uma palavra para completara\n",
+            "Eu jogo a bola\n",
+            "digite a hora12\n",
+            "digite os minutos30\n",
+            "digite os segundos00\n",
+            "12:30:00\n",
+            "código da cidade11\n",
+            "nº do celular951336556\n",
+            "Número de Telefone: 11 951336556\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#4-Escreva um programa que imprima os múltiplos de 5 a 50:\n"
+      ],
+      "metadata": {
+        "id": "Y98dZRu_qGCT"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [],
+      "metadata": {
+        "id": "se59ZdHJ6E8Q"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#5-Escreva um programa que peça ao usuário para digitar seu nome e imprima cada caractere do nome em uma linha:\n",
+        "Nome = input('Digite o seu nome:')\n",
+        "lista = list(Nome)\n",
+        "print(lista)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "V5LtCTlfqerD",
+        "outputId": "ef8ccb9f-4035-440a-9029-46f3fa45dfbe"
+      },
+      "execution_count": 58,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Digite o seu nome:JOSEMAR\n",
+            "['J', 'O', 'S', 'E', 'M', 'A', 'R']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "#Exercícios com Funções:\n",
+        "\n",
+        "#1-Escreva um programa que use a função range() para gerar os números pares de 2 a 20 e, em seguida, imprima cada número:\n"
+      ],
+      "metadata": {
+        "id": "6IGdwOQ0tHHm"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
