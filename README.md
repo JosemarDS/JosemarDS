@@ -51,6 +51,7 @@ IT professional with a strong background in **Data Science**, **Machine Learning
 ## 🎓 Formação Acadêmica | Education
 
 **Universidade Virtual do Estado de São Paulo (UNIVESP)**  
+
 Bacharelado em Tecnologia da Informação (2022 - 2025)  
   
 Bachelor’s in Information Technology (2022 - 2025)
