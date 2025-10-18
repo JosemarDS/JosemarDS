@@ -1,36 +1,97 @@
-# 👋 Olá! Eu sou Josemar Sebastião
+# 👨‍💻 Josemar Joel Damião Sebastião
 
-Apaixonado por tecnologia e dados como motores de transformação. Uno experiências em negócios e TI com habilidades em Ciência de Dados e Inteligência Artificial para resolver problemas reais.
+**Analista de BI | Engenheiro de Dados | Cientista de Dados | MySQL | ML & AI | Oracle Cloud Infrastructure | Desenvolvedor Python | Prompt Engineering**
 
-## 🚀 Sobre mim
+**BI Analyst | Data Engineer | Data Scientist | MySQL | ML & AI | Oracle Cloud Infrastructure | Python Developer | Prompt Engineering**
 
-- 💡 Curioso por natureza, movido por desafios analíticos
-- 🧠 Em constante aprendizado: modelos preditivos, FastAPI, e muito mais
-- 🌎 Localização: Guarulhos, São Paulo, Brasil
-- 🔗 [LinkedIn](https://www.linkedin.com/in/josemar-sebasti%C3%A3o/)
+Repositório pessoal com projetos, estudos e aplicações práticas nas áreas de Ciência de Dados, Inteligência Artificial, Engenharia de Software e Sistemas Embarcados. Este espaço reúne iniciativas que refletem minha trajetória técnica, visão analítica e compromisso com soluções escaláveis e orientadas a dados.
 
-## 📌 Projetos em destaque
+Personal repository showcasing projects, studies, and practical applications in Data Science, Artificial Intelligence, Software Engineering, and Embedded Systems. This space reflects my technical journey, analytical mindset, and commitment to scalable, data-driven solutions.
 
-| Projeto | Descrição |
-|--------|-----------|
+---
+
+## 🧠 Sobre Mim | About Me
+
+Profissional com sólida formação em Tecnologia da Informação, atuando com foco em **Data Science**, **Machine Learning**, **Python Back-end**, e **Cloud Computing (OCI)**. Tenho experiência prática em operações, finanças e gestão técnica, aliando conhecimento técnico a uma abordagem estratégica voltada à eficiência operacional e à transformação digital.
+
+IT professional with a strong background in **Data Science**, **Machine Learning**, **Python Back-end**, and **Cloud Computing (OCI)**. I bring hands-on experience in operations, finance, and technical management, combining technical expertise with a strategic mindset focused on operational efficiency and digital transformation.
+
+- 📍 Localização | Location: Guarulhos, SP, Brasil  
+- 📫 Contato | Contact: josemarjoel89@gmail.com  
+- 🔗 [LinkedIn](https://www.linkedin.com/in/josemar-sebastiao/)  
+- 💻 [GitHub](https://github.com/JosemarDS)
+
+---
+
+## 🚀 Competências Técnicas | Technical Skills
+
+| Área / Area                  | Tecnologias / Technologies                          |
+|-----------------------------|-----------------------------------------------------|
+| Linguagens / Languages      | Python (Back-end & Data), SQL, Bash                 |
+| Ciência de Dados / Data Sci | Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn    |
+| IA / AI                     | Machine Learning, Generative AI, Predictive Models  |
+| Nuvem / Cloud               | Oracle Cloud Infrastructure (OCI)                   |
+| Bancos de Dados / Databases | MySQL, SQLite                                       |
+| Engenharia / Engineering    | Git, GitHub, Agile Methods                          |
+| Embarcados / Embedded       | RP2040, C/C++, BitDogLab                      |
+| Visualização / Visualization| Power BI, Excel, Interactive Dashboards                    |
+
+---
+
+## 📁 Projetos em Destaque | Featured Projects
+
 | [📊 Prevendo Atrasos de Voos](https://github.com/JosemarDS/Prevendo-atrasos-de-Voos) | Análise preditiva de atrasos com machine learning |
+
 | [📈 Análise de Evasão de Clientes](https://github.com/JosemarDS/Challenge-Telecom-X-an-lise-de-evas-o-de-clientes---Parte-2) | Identificação de churn usando modelos supervisionados |
+
 | [🛍️ Challenge Alura Store](https://github.com/JosemarDS/Challenge-Alura-Store) | Projeto de análise de dados com Python e Jupyter |
 
-## 🧠 Tecnologias e Ferramentas
+---
 
-- Python, Pandas, NumPy, Scikit-learn
-- FastAPI, Streamlit
-- SQL, Power BI
-- Git, GitHub
+## 🎓 Formação Acadêmica | Education
 
-## 📫 Como me encontrar
+**Universidade Virtual do Estado de São Paulo (UNIVESP)**  
+Bacharelado em Tecnologia da Informação (2022 - 2025)  
+  
+Bachelor’s in Information Technology (2022 - 2025)
 
-- 📧 Email: josemar@email.com
-- 💼 LinkedIn: [linkedin.com/in/josemar-sebastião](https://www.linkedin.com/in/josemar-sebasti%C3%A3o/)
+---
+
+## 📜 Certificações | Certifications
+
+- Oracle Cloud Infrastructure (OCI) Certified Foundations Associate  
+- Data Science + AI – Oracle Next Education & Alura  
+- Back-End Python – DIO Bootcamp Luizalabs  
+- Defesa de Redes – Cisco
+- Python com Data Science - Senai SP
+- Sistemas Embarcados com Aplicações em IoT – HBR Instituto Hardware Br
+
+---
+
+## 🤝 Disponibilidade | Availability
+
+- Trabalho remoto, híbrido ou presencial  
+  *Available for remote, hybrid, or on-site work*
+
+- Participação ativa em comunidades tech (GitHub, DIO, Alura)  
+  *Active member of tech communities (GitHub, DIO, Alura)*
+
+- CNH categoria B  
+  *Driver’s license: Category B*
+
+---
+
+## 📌 Objetivo do Repositório | Repository Purpose
+
+Este repositório serve como vitrine técnica e espaço de aprendizado contínuo. Cada projeto aqui documentado representa não apenas uma entrega funcional, mas também uma oportunidade de explorar novas tecnologias, resolver problemas reais e contribuir com a comunidade de desenvolvedores e cientistas de dados.
+
+This repository is a technical showcase and a space for continuous learning. Each documented project represents not only a functional delivery but also an opportunity to explore new technologies, solve real-world problems, and contribute to the developer and data science community.
 
 ---
 
 Obrigado por visitar meu perfil! 😊  
 Sinta-se à vontade para explorar meus repositórios e conectar-se!
+
+Thanks for visiting my profile! 😊
+Feel free to explore my repositories and connect!
 
