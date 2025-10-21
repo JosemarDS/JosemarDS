@@ -65,7 +65,7 @@ Bachelor’s in Information Technology (2022 - 2025)
 - Back-End Python – DIO Bootcamp Luizalabs  
 - Defesa de Redes – Cisco
 - Python com Data Science - Senai SP
-- Sistemas Embarcados com Aplicações em IoT – HBR Instituto Hardware Br
+- EmbarcaTech: Sistemas Embarcados com Aplicações em IoT – HBR Instituto Hardware Br
 
 ---
 
