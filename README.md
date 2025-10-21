@@ -1,3 +1,9 @@
+<!-- Banner visual para perfil GitHub -->
+<p align="center">
+  <img src="nRstLjfYQ9UdmaAXssu7b.png" alt="Eyeglasses on laptop keyboard" width="100%" />
+</p>
+
+
 # 👨‍💻 Josemar Joel Damião Sebastião
 
 **Analista de BI | Engenheiro de Dados | Cientista de Dados | MySQL | ML & AI | Oracle Cloud Infrastructure | Desenvolvedor Python | Prompt Engineering**
@@ -95,4 +101,9 @@ Sinta-se à vontade para explorar meus repositórios e conectar-se!
 
 Thanks for visiting my profile! 😊
 Feel free to explore my repositories and connect!
+---
+
+<p align="center">
+  <em>“Tecnologia é melhor quando conecta pessoas.”</em>
+</p>
 
